@@ -29,3 +29,14 @@ const ticketPrice = +movieSelect.value;
 #EventListener in Selectbox
 
 - 'change'
+
+#Spread Operator (...) -> Gibt einen Array wieder:
+arr1 = [1, 2, 3];
+arr2 = [...arr1, 4, 5];
+
+#map vs forEach:
+Ersteres wendet eine Funktion auf jedes Element eines Array an und gibt ein entsprechendes Array wieder. Letzteres ist wie eine for-Schleife.
+
+#localStorage : Übernimmmt ein Key-Value Paar. In diesem Fall muss der Array in einen String verwandelt werden. Deswegen JSON.stringify.
+
+Entsprechend gibt es eine getItem Fuktion;
